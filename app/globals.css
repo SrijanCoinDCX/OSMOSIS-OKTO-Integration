@@ -31,3 +31,61 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.App {
+  text-align: center;
+}
+
+.logo{
+  height: 28vmin;
+  pointer-events: none;
+  margin: 0;
+}
+
+.btn {
+  background-color: #452ade;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.App-header {
+  background-color: #140f33;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #201b42;
+  border-radius: 10px;
+  padding: 3.5rem 10rem;
+  width: fit-content;
+}
+
+h1 {
+  letter-spacing: 6px;
+  font-weight: bolder;
+}
+
+p {
+  font-weight: 50;
+  margin: 2rem 0;
+  font-size: 18px;
+}
