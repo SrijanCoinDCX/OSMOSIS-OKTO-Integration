@@ -62,13 +62,39 @@ body {
 
 .App-header {
   background-color: #140f33;
+  background-image: linear-gradient(45deg, #140f33 0%, #110557 100%);
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.bg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url('https://app.osmosis.zone/images/osmosis-home-bg-pattern.svg');
+}
+
+#avatarImage{
+  margin-top: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+  #avatarImage{
+    display: none;
+  }
+}
+
+#bitcoin{
+  height: 10rem;
+  width: 10rem;
+  margin-top: 8rem;
+
 }
 
 .container {
@@ -76,10 +102,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #201b42;
+  background-color: #201b42dc;
   border-radius: 50px;
   padding: 3.5rem 10rem;
   width: fit-content;
+  margin: 0 5rem;
 }
 
 h1 {
